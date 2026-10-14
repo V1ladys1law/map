@@ -20,6 +20,7 @@ map.addEventListener("click", function(event) {
     cross.textContent = "✖";
     cross.style.left = x + "px";
     cross.style.top = y + "px";
+    console.log("X:", x, "Y:", y);
 
     document.body.appendChild(cross);
 
